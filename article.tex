@@ -1,0 +1,144 @@
+\documentclass[letterpaper,12pt]{article}
+%\pagestyle{empty}
+%\usepackage[margin=1in,
+%vmargin={22pt,.6in},
+%includefoot,includehead]{geometry}
+
+% APA referencing style
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}  
+\usepackage[english]{babel}
+%\DeclareLanguageMapping{english}{english-apa}
+%\addbibresource{refs.bib}
+
+% for linguistic examples &  interlinear glosses
+\usepackage{linguex}
+%to prevent numbered examples to start over each chapter
+\usepackage{remreset}
+\makeatletter
+\@removefromreset{ExNo}{chapter}
+\makeatother
+
+%for trees
+\usepackage{qtree}	
+\usepackage{tree-dvips}
+
+% for inserting/editing image
+%The command \graphicspath{ {figures/} } tells LATEX that the images are kept in a folder named "figures" under the current directory.
+\usepackage{graphicx}
+\graphicspath{ {figures/} }
+\usepackage[font=small,skip=5pt]{caption}
+
+% for inserting Chinese characters
+\usepackage{CJKutf8}
+
+%for strikethrough
+\usepackage[normalem]{ulem}	
+\pagestyle{empty}
+
+%\usepackage{setspace}
+%\usepackage{lsalike}
+%\usepackage{times}
+%\usepackage{sectsty}
+%\sectionfont{\normalsize}
+\usepackage{sectsty}
+\allsectionsfont{\normalsize}
+%\pagestyle{fancy}
+%\headheight 35pt
+%\lhead{Journal name, Volume ??, No-??}
+
+
+
+%title&name
+\title{\large \textbf{Modelling and Evaluation of Artifical Intelligence based Virtual Agents}}
+\author{\textit{Anonymous Authors}\\
+\textit{Florida State University}}
+\date{}
+
+
+%actually start the paper
+\begin{document}
+\maketitle
+
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+\begin{abstract}
+\noindent Education technology is adapting to more state the art
+technologies such as artificial intelligence (AI). AI in
+U.S. Education sector is expected to grow by 47.5 percent by the year 2022 \cite{RefWorks:1}.
+Artificial Intelligence and Education (AIED) is promising a new paradigm shift 
+in 
+the world of education technology. Learning situations are transforming 
+everyday, more so with the advent of the COVID-19 pandemic, where a lot 
+of learning is happening online. As such there 
+is an ever growing need for integrating sophisticated technologies like AI to assist
+our learning process. In our research, we are focusing on 
+modeling virtual agents with AI to study 
+collaborative learning situation. Here, \S 1 we develop an immersive learning enviroment with
+OpenSim 3D application server \cite{RefWorks:2}, and model AI enhanced virtual agents in the enviroment, to simulate
+a comprehensive real world classroom situation. \S 2 We also build a knowledge 
+module to crater to domain specific teaching assistance for different learning situations.
+Our models for this novel AI enhanced learning enviroment 
+covers all three crucial areas of learning environment modelling, which are,   
+design methodologies, system components and range of tools 
+available for learners, so that a more realistic intervention 
+can be performed 
+with our AI learning environment.
+\end{abstract}
+
+\section*{Introduction}
+%\renewcommand{\baselinestretch}{2}
+This is an introduction 
+
+%\parencite{RefWorks:192}
+
+%\S 1 presents blah blah.
+%\S 2 offers a  proposal for blah blah.
+%\S 3 demonstrates how this analysis can account for blah blah.
+%\S 4 offers some brief conclusions, and identifies topics for future study.
+
+\section{Section 1}
+This is Section 1.
+
+%Here's an example:
+
+%\exg. mali     zai       xue-xi \\
+%		Mary   \textsc{prog} study \\
+%		`Mary was/is studying.'
+
+%Explain the example.
+
+\subsection{Section 1.1}
+This is Section 1.1.
+
+\section{Section 2}
+This is Section 2.
+
+\subsection{Section 2.1}
+This is Section 2.1.
+
+\section{Section 3}
+This is Section 3.
+
+\subsection{Section 3.1}
+This is Section 3.1.
+
+\section{Conclusion}
+This is a conclusion.
+
+
+%next line adds the Bibliography to the contents page
+%\addcontentsline{toc}{chapter}{Bibliography}
+%uncomment next line to change bibliography name to references
+%\renewcommand{\bibname}{References}
+%\printbibliography
+\bibliographystyle{apalike}
+\bibliography{./refs}
+
+\vspace{.25in}
+%\noindent \textit{Author contact information:\\
+% Sherry Yong Chen: \hspace{.05in} sychen@mit.edu}
+
+\end{document}
